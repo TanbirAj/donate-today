@@ -182,17 +182,50 @@ donate{
 }
 .why-donate{
     display: flex;
-    align-items: center;
+    margin: 100px;
     justify-content: center;
+    
 }
 .why-donate-left{
-    border: 1px solid gainsboro;
+    border:none;
     height: 500px;
-    width: 500px;
+    width: 800px;
+    margin-right: 40px;
+}
+.why-donate-left h1{
+    font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+}
+.why-donate-left p{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.they-need-us{
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+}
+.survive h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+.survive p{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    text-align: left;
 }
 .pic{
     height: 500px;
-    width: 500px;
+    width: 700px;
+    
+
+    
+}
+.pic-2{
+    height: 500px;
+        width: 700px;
 }
 .updates{
     margin-top: 40px;
@@ -219,11 +252,11 @@ donate{
 .contact-us{
     height: 20px;
     display: flex;
-    margin: 100px;
+    margin: 80px;
     align-items: center;
     justify-content: center;
     border: none;
-    padding: 40px;
+    padding: 80px;
     background-color: antiquewhite;
 }
 input{
@@ -231,7 +264,7 @@ input{
     border: none;
     border-top-left-radius:5px;
     border-bottom-left-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     background-color: lightgrey;
 }
 .button-subscribe{
@@ -239,7 +272,7 @@ input{
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;;
-    padding: 10px;
+    padding: 20px;
     background-color: tomato;
     color: white;
     }
