@@ -36,6 +36,9 @@
     background-color: tomato;
     color: white;
 }
+.donate-today{
+    display: inline;
+}
 .donate-today h1{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -88,6 +91,12 @@
 .donate-plan-box{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.donate2{
+    
+    text-align:c
 }
 .food{
     font-family: 'Open Sans', sans-serif;
@@ -105,6 +114,9 @@
     margin-top: 100px;
     margin-bottom: 20px;
 }
+.food-heading{
+    font-size: 28px;
+}
 .shelter{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
@@ -119,6 +131,9 @@
 .shelter-icon{
     margin-top: 100px;
     margin-bottom: 20px;
+}
+.shelter-heading {
+    font-size: 28px;
 }
 .education{
     font-family: 'Open Sans', sans-serif;
@@ -135,17 +150,20 @@
     margin-top: 100px;
     margin-bottom: 20px;
 }
+.education-heading {
+    font-size: 28px;
+}
 .donate-plan h1{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 60px;
     margin-top: 100px;
 }
-.donate-plan p {
+.donate-plan p{
     font-family: 'Open Sans', sans-serif;
-    font-size:25px;
-    text-align: center;
-    padding: 20px 400px;
+    font-size:20px;
+    text-align: justify;
+    
     color: rgba(128, 128, 128, 0.781);
 }
 .why-donate{
@@ -163,7 +181,8 @@
     width: 500px;
 }
 .updates{
-    margin: auto;
+    margin-top: 40px;
+    
 }
 .updates-top{
     text-align: center;
@@ -172,9 +191,9 @@
 }
 .updates h1{
     font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        font-size: 60px;
-        margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
 }
 .updates p{
     font-family: 'Open Sans', sans-serif;
@@ -184,13 +203,30 @@
     color: rgba(128, 128, 128, 0.781);
 }
 .contact-us{
-    
+    height: 20px;
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
     border: none;
-    padding: 50px 100px;
+    padding: 40px;
     background-color: antiquewhite;
-    width: 400px;
 }
-
+input{
+    flex-basis: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.button-subscribe{
+    flex-basis: 8%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    }
 footer {
     border:none;
     background-color: black;
